@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="stylesheet.js" defer></script>
+</head>
+
+<body>
+
+    <div>
+        <nav >
+            <div class="d-flex">
+                <div class="p-2 flex-grow-1"><i class="bi bi-code-slash" style="color: rgb(255, 255, 255);"></i><span style="color: rgb(255, 255, 255);"> Developer </span></div>
+                <div class="p-2"><span style="color: rgb(255, 255, 255);"><a href="#home"> home </a></span></div>
+                <div class="p-2"><span style="color: rgb(255, 255, 255);"><a href="#services"> services </a></span></div>
+                <div class="p-2"><span style="color: rgb(255, 255, 255);"><a href="#work"> work </a></span></div>
+                <div class="p-2"><span style="color: rgb(255, 255, 255);"><a href ="mailto:nu150945@gmail.com" style="text-decoration: none;">contact us</a></span></div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="cover" id="home">
+        <div class="header-bg"></div>
+        <h1 style="color: rgb(255, 255, 255); letter-spacing: 2vh; padding-top: 40vh;"> Developer </h1><br>
+        <h4> We are web developer </h4><br>
+            <button type="button" class="btn btn-outline-light"><a href="#services"> Read More </a></button><button style="margin-left: 2vh;" type="button" class="btn btn-light"><a href="#services" style="color: black;"> Learn More </a></button>
+    </div>
+
+    
+    <div class="services" id="services">
+        <br><br><h1>Services</h1><br>
+        <div class="grid text-center">
+            <div class="g-col-12 g-col-md-6 g-col-xl-4">
+                <i class="bi bi-pencil-square"></i>
+                <p style="text-transform: uppercase; font-weight: bold; color: black;">web design</p>
+                <p>Maecenas tempus, tellus eget condimentum. rhoncus, sem quam semper libero, sit amet adipiscing sem.</p>
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-4">
+                <i class="bi bi-gear"></i>
+                <p style="text-transform: uppercase; font-weight: bold; color: black;">development</p>
+                <p>Donec sodales sagittis magna. hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus, augue velit cursus nunc.</p>
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-4">
+                <i class="bi bi-apple"></i>
+                <p style="text-transform: uppercase; font-weight: bold; color: black;">branding</p>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis. praesentium voluptatum deleniti atque.</p>
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-4">
+                <i class="bi bi-pencil-square"></i>
+                <p style="text-transform: uppercase; font-weight: bold; color: black;">photography</p>
+                <p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui official deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-4">
+                <i class="bi bi-gear"></i>
+                <p style="text-transform: uppercase; font-weight: bold; color: black;">typography</p>
+                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil</p>
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-4">
+                <i class="bi bi-apple"></i>
+                <p style="text-transform: uppercase; font-weight: bold; color: black;">ui design</p>
+                <p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</p>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    
+
+    <div class="count">
+        <div class="countnum">
+            <div class="grid text-center">
+                <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                    <h1 class="counter" data-count="1054">0</h1>
+                    <p>clients</p>
+                </div>
+                <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                    <h1 class="counter" data-count="154">0</h1>
+                    <p>projects</p>
+                </div>
+                <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                    <h1 class="counter" data-count="59">0</h1>
+                    <p>awards</p>
+                </div>
+                <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                    <h1 class="counter" data-count="34">0</h1>
+                    <p>teams</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="great" id="work">
+        <div style="padding: 12vh 0vh 2vh 0vh;">
+            <h1>great work</h1><br>
+            <div class="d-flex justify-content-center" style="text-transform: uppercase; cursor: pointer;">
+                <div class="p-2"><p onclick="showAll()"> all </p></div>
+                <div class="p-2"><p onclick="showBranding()"> branding </p></div>
+                <div class="p-2"><p onclick="showDesign()"> design </p></div>
+                <div class="p-2"><p onclick="showPhoto()"> photo </p></div>
+                <div class="p-2"><p onclick="showCoffee()"> coffee </p></div>
+            </div>
+        </div>
+        <div class="grid text-center" id="imageGrid">
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="coffee1.jpg" class="img-fluid coffee">
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="branding1.jpg" class="img-fluid branding">
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="design1.jpg" class="img-fluid design">
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="photo1.jpg" class="img-fluid photo">
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="design2.jpg" class="img-fluid design">
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="photo2.jpg" class="img-fluid photo">
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="branding2.jpg" class="img-fluid branding">
+            </div>
+            <div class="g-col-12 g-col-md-6 g-col-xl-3">
+                <img src="coffee2.jpg" class="img-fluid coffee">
+            </div>
+        </div>
+        <br><br>
+    </div>
+   
+
+    <footer class="footer">
+        <div><span><i class="bi bi-c-circle"></i> 2020 </span>
+          <span style="color: black;"><i class="bi bi-code-slash"></i> Developer. </span>
+          <span> All Rights Reserved </span>
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>
